@@ -24,7 +24,6 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 // Project Section Logo's
 import virtumate from './assets/virtumate.png';
 import caresync from './assets/caresync.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
 import vhwa from './assets/vhwa.png';
 
 
