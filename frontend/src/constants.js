@@ -132,14 +132,5 @@ export const projects = [
     webapp: "",
   },
 
-  {
-    id: 3,
-    title: "EmpManageX",
-    description:
-      "EmpManageX is a desktop-based Employee Management System developed in Java using Swing and AWT for an intuitive graphical user interface. It provides users with a reliable and efficient platform to manage employee records, including creating, reading, updating, and deleting employee data.",
-    image: movierecLogo,
-    tags: ["Java", "MySQL Workbench", "Swing", "Abstract Window Toolkit",],
-    github: "https://github.com/RanaNitin02/EmpManageX",
-    webapp: "",
-  },
+  
 ];  
