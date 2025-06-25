@@ -127,7 +127,7 @@ export const projects = [
       "A complete backend project with all necessary features for a robust backend. Designed to build a full-featured video hosting website similar to YouTube.",
     image: vhwa,
     tags: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Bcrypt"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
+    github: "https://github.com/RanaNitin02/backend-project",
     webapp: "",
   },
 
