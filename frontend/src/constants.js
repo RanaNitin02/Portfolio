@@ -118,7 +118,7 @@ export const projects = [
     image: caresync,
     tags: ["React JS", "Node.js", "MongoDB", "Express", "Swiper.js", "Cloudinary", "Stripe API"],
     github: "https://github.com/RanaNitin02/CareSync",
-    webapp: "https://caresync-wzki.onrender.com/",
+    webapp: "https://caresync-grop.onrender.com",
   },
   {
     id: 2,
