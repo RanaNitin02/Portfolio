@@ -58,21 +58,33 @@ const About = () => {
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-blue-300 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
-          >
+          {/* Normal Image for Small Screens */}
+          <div className="block md:hidden">
             <img
               src={profileImage}
               alt="Tarun Kaushik"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(59, 130, 246, 1)]"
+              className="w-48 h-48 sm:w-64 sm:h-64 border-4 border-blue-300 rounded-full object-cover drop-shadow-[0_10px_20px_rgba(59, 130, 246, 1)]"
             />
-          </Tilt>
+          </div>
+        
+          {/* Tilt Effect for Medium and Larger Screens */}
+          <div className="hidden md:block">
+            <Tilt
+              className="w-[30rem] h-[30rem] border-4 border-blue-300 rounded-full"
+              tiltMaxAngleX={20}
+              tiltMaxAngleY={20}
+              perspective={1000}
+              scale={1.05}
+              transitionSpeed={1000}
+              gyroscope={true}
+            >
+              <img
+                src={profileImage}
+                alt="Tarun Kaushik"
+                className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(59, 130, 246, 1)]"
+              />
+            </Tilt>
+          </div>
         </div>
       </div>
     </section>
