@@ -4,7 +4,7 @@ A modern, responsive, and fully functional personal portfolio website built usin
 
 ## 📌 Live Demo
 
-👉 [Visit the Live Site](https://ranajionline.vercel.app/)  
+👉 [Visit the Live Site](www.ranaji.me)  
 
 
 ---
