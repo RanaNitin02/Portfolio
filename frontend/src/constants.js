@@ -22,6 +22,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 
 // Project Section Logo's
+import skillforge from './assets/skillforge-ai.png';
 import virtumate from './assets/virtumate.png';
 import caresync from './assets/caresync.png';
 import vhwa from './assets/vhwa.png';
@@ -102,26 +103,35 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "SkillForge-AI",
+    description: "An AI-powered skill development platform built with React JS, Clerk for authentication, Firebase for backend services, and Generative AI to provide personalized learning experiences. SkillForge-AI helps users enhance their skills through interactive content and tailored recommendations.",
+    image: skillforge,
+    tags: ["React JS", "Clerk", "Firebase", "Generative AI"],
+    github: "https://github.com/RanaNitin02/SkillForge-AI",
+    webapp: "https://skillforge-ai-25f45.web.app/",
+  },
+  {
+    id: 1,
     title: "VirtuMate",
     description:
       "An intelligent AI-powered virtual assistant built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This assistant is designed to help users perform tasks, answer questions, and interact through a seamless web interface.",
     image: virtumate,
-    tags: ["MongoDB", "Express.js", "React JS", "JWT", "Gemini API"],
+    tags: ["MongoDB", "Express.js", "React JS", "JWT", "Generative AI"],
     github: "https://github.com/RanaNitin02/VirtuMate",
     webapp: "https://virtumate.onrender.com/signup",
   },
   {
-    id: 1,
+    id: 2,
     title: "CareSync",
     description:
       "A full-stack web application built using the MERN stack that allows patients to book appointments with doctors. It includes authentication, appointment management, Stripe payment integration, and a responsive frontend.",
     image: caresync,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Swiper.js", "Cloudinary", "Stripe API"],
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "Swiper.js", "Cloudinary", "Stripe"],
     github: "https://github.com/RanaNitin02/CareSync",
     webapp: "https://caresync-grop.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "Video Hosting WebApp",
     description:
       "A complete backend project with all necessary features for a robust backend. Designed to build a full-featured video hosting website similar to YouTube.",
